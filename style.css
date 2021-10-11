@@ -1,0 +1,21 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorBtn{
+padding: 10px;
+border: 2px solid #fefefe;
+border-radius: 4px;
+text-transform: uppercase;
+color: #fefefe;
+font-size: .85rem;
+background-color: rgba(0,0,0,0.6);
+/* cursor: pointer; */
+outline: none;
+}
+#colorBtn:hover{
+    background: rgb(0, 0,0);
+}
